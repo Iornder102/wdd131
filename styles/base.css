@@ -1,0 +1,116 @@
+:root {
+    --secondary-color: #0d1b2a;
+    --primary-color: #1b263b;
+    --acent1-color: #415a77;
+    --accent2-color: #e0e1dd;
+    --tertiary-c0lor: #172c66;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+main {
+    flex: 2;
+    margin-bottom: 10px;
+}
+.about-me {
+    overflow: hidden;
+}
+.card-1, .card-2 {
+    border: 1px solid black;
+    padding: 20px;
+}
+.card-2 {
+    height: 385px;
+}
+
+.about-me img {
+    float: right;
+    width: 150px;
+    height: 150px;
+
+}
+.country-information img {
+    
+    min-width: 100px;
+    
+   
+} 
+.country-information {
+display: flex; 
+align-items: flex-start;
+gap: 20px;
+padding-top: 30px;
+
+}
+h3 {
+    text-align: center;
+    padding: 16px;
+}
+hr {
+    width: 60%;
+    margin: 20px auto;
+}
+.country-information figure {
+    margin: 0;
+    text-align: center;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+
+
+}
+nav a {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-size: medium;
+    float: right;
+    
+}
+nav a:hover {
+    border: 1px solid #e0e1dd;
+}
+h1 {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--tertiary-c0lor);
+    padding: 2rem;
+    color: var(--accent2-color);
+}
+h2 {
+    font-family: "Roboto", serif;
+    font-size: medium;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+    color: var(--accent2-color);
+}
+aside ul {
+    list-style: none;
+}
+
+
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: var(--accent2-color);
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
