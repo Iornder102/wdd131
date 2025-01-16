@@ -20,7 +20,7 @@ main {
     flex: 2;
     margin-bottom: 10px;
     font-size: medium;
-    font: "roboto", san-seriff;
+    font-family: "roboto", san-seriff;
 }
 
 .about-me {
