@@ -19,16 +19,20 @@
 main {
     flex: 2;
     margin-bottom: 10px;
+    font-size: medium;
+    font: "roboto", san-seriff;
 }
+
 .about-me {
     overflow: hidden;
 }
-.card-1, .card-2 {
+
+.card-1, .card-2 { 
     border: 1px solid black;
     padding: 20px;
 }
-.card-2 {
-    height: 385px;
+.card-2 { 
+    height: 390px;
 }
 
 .about-me img {
@@ -87,6 +91,7 @@ h1 {
     background-color: var(--tertiary-c0lor);
     padding: 2rem;
     color: var(--accent2-color);
+    text-align: center;
 }
 h2 {
     font-family: "Roboto", serif;
