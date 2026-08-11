@@ -3,13 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background: color #808080;
     display: grid; 
     
 }
+h1{
+text-align: center;
+}
 body {
     
     font-family: "Roboto", sans-serif;
     font-weight: 200;
+}
+figcaption{
+text-align: center;
+justify-content: center;
 }
