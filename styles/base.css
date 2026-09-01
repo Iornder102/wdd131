@@ -21,6 +21,9 @@
   background-color: var(--tertiary-color);
   color: var(--acent2-color);
 }
+header {
+  font-family: "Roboto", serif;
+}
 
 nav {
   display: flex;
@@ -120,5 +123,5 @@ footer {
 }
 
 #lastModified {
-  color: #ffea00;
+  color: rgb(255 234 0)
 }
