@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/temples.js"></script>
-    <link rel="stylesheet" href="temples.css">
-    <link rel="stylesheet" href="temples-large.css">
+    <meta name="description" content="temple album">
+    <meta name="author" content="Msughter Samuel Iornder">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
     <title>Temple Album</title>
 </head>
 <body>   
     <header>
+        <h1>Temple Album</h1>
+        <button type="button" id="menu"></button>
     <nav>
-        <ul>
+        <ul class="navigation">
         <li><a href="">Home</a></li>
         <li><a href="">Old</a></li>
         <li><a href="">New</a></li>
@@ -24,7 +28,8 @@
     </nav>
 </header>
     <main>
-        <h1>Temple Album</h1>
+  <h2>Home</h2>
+<div class="grid-container">
         <figure>
             <img src="images/Heber Valley Utah Temple.jpeg" alt="Heber Valley Utah Temple">
             <figcaption>Heber Valley Utah Temple</figcaption>
@@ -61,11 +66,11 @@
             <img src="images/Medford Oregon Temple.jpeg" alt="Medford Oregon Temple">
             <figcaption>Medford Oregon Temple</figcaption>
         </figure>
+    </div>    
     </main>
-    <footer><p>© <span id="year">2025</span> 🌴 Msughter Samuel Iornder 🌴 Nigeria </p>
-        <p>
-           last modification 
-        </p>
+    <footer>
+        <p>© <span id="currentyear"></span> 🌴 Msughter Samuel Iornder 🌴 Nigeria </p>
+        <p id="lastModified">Last modification </p> 
     </footer>
     
 </body>

@@ -1,16 +1,28 @@
-main {
-    max-width: 800px;
-    margin: 0 auto;
-}
-nav{
-    background-color: #363f;
-    margin: 0 auto;
-    max-width: 800px;
-}
-nav a ul {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    text-decoration: none;
-}
+
+@media screen and (min-width:500px ) {
+    header {
+        color :#fff;
+        background-color: #000;
+    } 
+    
+
+.navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+ .grid-container {  
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;
+	place-items: center; 
+ } 
+ .navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+ #menu {
+		display: none;
+	}  
+
