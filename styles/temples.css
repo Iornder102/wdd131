@@ -37,13 +37,13 @@ main {
 
 }
 
- .navigation a {
+.navigation a {
 	display: none;
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
 	color: var(--acent2-color);
-}
+} 
 .navigation {
 	display: flex;
 	flex-direction: column;
@@ -52,7 +52,8 @@ main {
 	background-color: var(--acent1-color);
 	color : var(--acent2-color);
 } 
-nav a:hover {
+
+.navigation a:hover {
   background-color: var(--acent1-color);
   border-radius: 4px;
   border: 1px solid var(--acent2-color)
