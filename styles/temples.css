@@ -45,7 +45,7 @@ main {
 	color: var(--acent2-color);
 }
 .navigation {
-	display: flex;
+	display: flexbox;
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
