@@ -2,7 +2,7 @@
   --secondary-color: #0d1b2a;
   --primary-color: #1b263b;
   --acent1-color: #415a77;
-  --acent2-color: #e0e1dd;
+  --acent2-color: #ffffff;
   --tertiary-color: #172c66;
 
 }
@@ -16,6 +16,8 @@
 header {
     
     font-family: "Roboto", sans-serif;
+    background-color: var(--tertiary-color);
+    padding: 1rem;
     
 }
 h1{
@@ -39,7 +41,6 @@ main {
 
  .navigation a {
 	display: none;
-	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
 	color: var(--acent2-color);
@@ -49,13 +50,15 @@ main {
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
-	background-color: var(--acent1-color);
-	color : var(--acent2-color);
+	color : var(--tertiary-color);
+    
+
 } 
 nav a:hover {
-  background-color: var(--acent1-color);
-  border-radius: 4px;
-  border: 1px solid var(--acent2-color)
+  background-color: var(--tertiary-color);
+  border-radius: 2px;
+  border: 1px solid var(--acent2-color);
+  
 }
 #menu {
 	font-size: 1.5rem;
@@ -85,7 +88,7 @@ figure img {
 }
  
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
   color: var(--acent2-color);
   text-align: center;
   padding: 1rem;
