@@ -40,13 +40,13 @@ main {
 }
 
  .navigation a {
-	display: none;
+	display: none; 
 	text-align: center;
 	text-decoration: none;
 	color: var(--acent2-color);
 }
 nav {
-	display: flexbox;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	list-style: none;
