@@ -1,0 +1,116 @@
+:root {
+    --primary-color :#001e1d;
+    --Secondary-color :#ee0505b4;
+    --tertiary-color :#2cb67d;
+    --acent1-color :#fffffe;
+    --acent2-color : #00473e;
+}
+
+* {
+   box-sizing: border-box;
+   margin:0;
+   padding: 0; 
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+  header {
+  background-color: var(--acent2-color);
+  color: var(--acent1-color);
+  text-align: center;
+  padding : 1.5rem;
+
+ } 
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem; 
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  display: block;
+}
+
+#data-card {
+  background: var(--acent1-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 6px;
+  padding: 1rem;
+  top: 5rem;
+  right: 2rem;
+
+}
+#weather-card {
+  background: var(--acent1-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+ h2 {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ ul li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--acent1-color);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Wider View Layout */
+@media (min-width: 650px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+     "hero hero"
+      "data weather"; 
+  }
+
+  .hero {
+    grid-area:hero;
+  }
+
+  #data-card {
+    grid-area: data;
+    top: 20rem;
+    left: 5rem;
+  }
+
+  #weather-card {
+    grid-area: weather;
+    top: 20rem;
+    right: 3rem;
+  }
+  
+  #weather-card h2::after {
+    content: " ⛅";
+    left:1rem;
+  }
+}
