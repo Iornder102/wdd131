@@ -83,7 +83,7 @@ footer {
   font-size: 1rem;
 }
 
-/* Wider View Layout */
+/* Wider View Screen */
 @media (min-width: 650px) {
   main {
     display: grid;
@@ -112,5 +112,8 @@ footer {
   #weather-card h2::after {
     content: " ⛅";
     left:1rem;
+  }
+  .weather-icon-mobile {
+    display: none;
   }
 }
