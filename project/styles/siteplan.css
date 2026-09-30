@@ -1,0 +1,89 @@
+
+:root {
+  --primary-color: #1D3557;
+  --secondary-color: #457B9D;
+  --accent-color: #E63946;
+  --background-color: #F8F9FA;
+  --text-color: #212529;
+  
+  
+  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header h1, header h2 {
+  font-family: var(--heading-font);
+  margin: 0.2rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2, h3, h4 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #CCCCCC;
+  margin: 2rem 0;
+}
+
+
+.color-box {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.color-primary {
+  background-color: var(--primary-color);
+}
+
+.color-secondary {
+  background-color: var(--secondary-color);
+}
+
+.color-accent {
+  background-color: var(--accent-color);
+}
+
+.wireframe {
+  border: 2px dashed var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  margin-top: 2rem;
+}

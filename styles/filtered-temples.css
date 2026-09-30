@@ -23,6 +23,7 @@ header {
 h1{
     text-align: center;
     color: var(--acent2-color);
+    margin-bottom: 20px;
 }
 h2 {
     text-align: center;
