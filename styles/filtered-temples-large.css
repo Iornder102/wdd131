@@ -21,8 +21,8 @@
 	place-items: center; 
  } 
  p {
-
     text-align: center;
+    color: rgb(40, 0, 0,);
  }
  section img {
     width: 300px;
