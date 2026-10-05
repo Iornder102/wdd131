@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page will be used to collect data about the customer ratings of our product">
+    <meta name="author" content="Msughter Samuel Iornder">
+     <link rel="stylesheet" href="styles/form.css">
+     <script src="scripts/form.js" defer></script>
+    <title>Product Review</title>
+</head>
+<body>
+    
+        <h1>Product Review</h1>
+    
+    <main>
+        <form action="review.html" method="get">
+          <div>
+            <label for="product">Product Name:</label>
+            <select name="product" id="product" required> 
+                <option value="select" disabled, selected>Select a Product</option>
+                
+            </select>
+            <p>Overall Rating:</p>  
+            <label for="rate-1">☆</label>
+            <input type="radio" name="rate" id="rate-1" required>
+            <label for="rate-2">☆☆</label>
+            <input type="radio" name="rate" id="rate-2" required>
+            <label for="rate-3">☆☆☆</label>
+            <input type="radio" name="rate" id="rate-3" required>
+            <label for="rate-4">☆☆☆☆</label>
+            <input type="radio" name="rate" id="rate-4" required>
+            <label for="rate-5">☆☆☆☆☆</label>
+            <input type="radio" name="rate" id="rate-5" required>
+          </div> 
+         <div>
+            <p>Date of Installation</p>
+            <input type="date" name="date" id="date" required>
+            <p>Which features did you find useful in the product? <br>(Check all that apply)</p>
+            <br><input type="checkbox" name="Durability" id="Durability" value="Durability">
+            <label for="Durability">Durability</label>
+            <br><input type="checkbox" name="Ease of Use" id="Ease of Use" value="Ease of Use">
+            <label for="Ease of Use">Ease of Use</label>
+            <br><input type="checkbox" name="Performance" id="Performance" value="Performance">
+            <label for="Performance">Performance</label>
+            <br><input type="checkbox" name="Design" id="Design" value="Design">
+            <label for="Design">Design</label>
+            <br><label for="write-review">Written Review(Optional)</label>
+            <textarea name="write-review" id="write-review" cols="20" rows="5"></textarea>
+         </div>
+        <div>
+            <label for="user-name">User Name(Optional)</label>
+            <input type="text" name="user-name" id="user-name">
+            <label for="submit"></label>
+        <br><input type="submit" id="submit" name="submit" value="Post Review">
+
+        <p>Thank you for submiting review! Your submitted review(s): <span id="reviewCount"></span></p>
+        <p></p>
+        </div>
+        
+</form>
+<footer>
+        <p>© <span id="currentyear"></span> 🌴 Msughter Samuel Iornder 🌴 Nigeria </p>
+        <p id="lastModified">Last modification </p> 
+    </footer>
+
+    </main>
+</body>
+</html>
