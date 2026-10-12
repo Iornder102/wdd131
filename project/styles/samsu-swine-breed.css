@@ -100,6 +100,7 @@ ul {
     margin: 0;
     padding: 0;
     color: var(--primary-color);
+    font: var(--body-font);
 }
 p a {
   text-decoration-line: none;
@@ -107,6 +108,7 @@ p a {
 p {
   font-size: medium;
   color: var(--primary-color);
+  font: var(--body-font);
   
 }
 
