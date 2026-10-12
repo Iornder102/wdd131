@@ -32,7 +32,7 @@ ul {
 }
  header li a {
      justify-content: space-around;
-     font: 'Montserrat', sans-serif;
+     font-family: var(--heading-font);
      text-align: center;
      font-size: 1.5rem;
      color: var(--background-color);
@@ -66,7 +66,7 @@ h1, h2 {
   font-family: var(--heading-font);
   margin: 0.2rem 0;
   text-align: center;
-  font: 'Montserrat', sans-serif;
+  font-family: var(--heading-font);
 }
 nav img {
   width: 100px;
@@ -100,7 +100,7 @@ ul {
     margin: 0;
     padding: 0;
     color: var(--primary-color);
-    font: var(--body-font);
+    font-family: var(--heading-font);
 }
 p a {
   text-decoration-line: none;
@@ -108,7 +108,7 @@ p a {
 p {
   font-size: medium;
   color: var(--primary-color);
-  font: var(--body-font);
+  font-family: var(--body-font);
   
 }
 
