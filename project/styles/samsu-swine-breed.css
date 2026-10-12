@@ -105,6 +105,8 @@ p a {
 }
 p {
   font-size: medium;
+  color: var(--primary-color);
+  
 }
 
 hr {
@@ -192,7 +194,7 @@ footer p {
   align-content: center;
 }
 #currentyear {
-  color: var(--accent-color);
+  color: var(--background-color);
 }
 #lastModified {
   align-items: center;
