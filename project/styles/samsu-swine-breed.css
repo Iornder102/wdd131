@@ -121,10 +121,12 @@ hr {
 .banner img {
     width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 .flexbox img {
   width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 article {
   padding: 2rem;
@@ -186,7 +188,9 @@ form input, form textarea {
 
 .container img {
     align-content: center;
+    border-radius: 3px;
 }
+
 figure figcaption {
     text-align: center;
     color: var(--text-color);
