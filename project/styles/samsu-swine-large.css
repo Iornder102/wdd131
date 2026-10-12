@@ -48,7 +48,7 @@ header ul li a:hover {
 
  p {
     text-align: center;
-    color: rgb(40, 0, 0,);
+    color: var(--primary-color);
  }
  section img {
     width: 300px;
